@@ -1,5 +1,5 @@
 {
-  "get_start": "เริ่มต้นด้วยการแก้ไข",
+  "get_start": "เริ่มต้นด้วยการแก้ไข {{file}} {{test}}",
   "save_your_change": "บันทึกและดูการเปลี่ยนแปลงของคุณทันที",
   "deploy_now": "ปรับใช้ตอนนี้",
   "read_our_doc": "อ่านเอกสารของเรา",
@@ -7,6 +7,9 @@
   "examples": "ตัวอย่าง",
   "go_to_next": "ไปที่ nextjs.org →",
   "errors": {
-    "name_required": "ชื่อจำเป็นต้องระบุ"
+    "name_required": "ชื่อจำเป็นต้องระบุ",
+    "validation": {
+      "email_invalid": "อีเมลไม่ถูกต้อง"
+    }
   }
 }

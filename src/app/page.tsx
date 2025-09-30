@@ -14,7 +14,7 @@ export default function Home() {
 
   return (
     <div>
-      {t("get_start")} <code>src/app/page.tsx</code>
+      {t("get_start", { file: 12, test: "something went wrong bro" })}
       {t("save_your_change")}
       {t("errors.name_required")}
       <div style={{ marginTop: 16 }}>
